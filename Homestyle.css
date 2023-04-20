@@ -1,0 +1,501 @@
+/*-----HOME------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(images/cake6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: peachpuff;
+    height: 100%;
+}
+.header{
+    background-color: red;
+    height: 15vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(51, 55, 56);
+}
+
+nav ul li a{
+    color: rgb(21, 23, 167);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(240, 240, 250);
+    transition: 3s;
+}
+
+p{
+    color:#0c0a0b;
+} 
+
+h1{
+    color:#0e0b0d; 
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 500px;  
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+}
+
+.col-2 h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.col-2 p{
+    font-size: 15px;
+    line-height: 170%;
+}
+
+header row{
+    margin-top: 70px;
+    display: flex;
+}
+
+.categories{
+    margin: 70px;
+}
+
+.col-3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.container{
+    max-width: 1100px;
+    width: 1080px;
+    margin: auto;
+    padding-left: 52px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 160px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width: 100%s;
+}
+.center-content{
+    display: inline-flex;
+
+}
+.image img{
+    margin-top: 70px;
+}
+
+.btn{
+    padding: 10px;
+    background: #4d0da1 50px 50px;
+    color: white;
+    font-weight: 300;
+    font-weight: 40px;
+    border-radius: 300px;
+    transition: .4s ;
+    display: inline-block;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color: red;
+    cursor: pointer;
+    transition: .4s;
+}
+.logo img{
+   margin-left: -110px;   
+}
+
+/*-------ABOUT------*/
+.designs img{
+    width: 50%;
+    height: 40%;
+}
+#btn1{
+    color: #000;
+    border: #4d0da1;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    color: #9b1a70;
+    transition: 0.5s;
+}
+.aboutus{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutus h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: lightcoral;
+}
+.aboutus h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.aboutus p{
+    color: rgb(14, 11, 11);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px; 
+}
+    
+.aboutus h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: lightcoral;
+}
+.aboutus h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.aboutus p{
+    color: rgb(10, 8, 8);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.designs{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+} 
+.designs h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.designs:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.274);
+}
+.action_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(8, 6, 6);
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.action_btn:hover{
+    background: red;
+    border: 1px solid red;
+    transition: 1s;
+}
+@media(max-width: 700px){ 
+    nav img{
+    width: 190px;
+}
+.text_box h1{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.text_box p{
+    font-size: 14px;
+}
+.nav_links ul li{
+    display: block;
+}
+.nav_links ul{
+    margin-top: 20px;
+}
+.row{ 
+    flex-direction: column;
+}
+.contact h1{
+    font-size: 22px;
+}
+    
+/*-------Home (About Us)---------*/
+    
+.designs img{
+    width: 50%;
+    height: 40%;
+}
+#btn1{
+    color: black;
+    border: 1px solid red;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#btn1:hover{
+    color: white;
+    transition: 0.5s;
+}
+.aboutus{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutus h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: underline;
+    
+}
+.aboutus h2{
+    font-size: 24px;
+    font-weight: 700;
+  
+}
+.aboutus p{
+    color: rgb(12, 6, 6);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.designs{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+} 
+.designs h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+.designs:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.274);
+}
+@media(max-width: 200px){
+    .designs img{
+    width: 200px;
+    height: 200px;
+}
+.aboutus h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.aboutus h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.aboutus p{
+    font-size: 17px;
+    font-weight: 500px;
+}
+
+/*-------Home (PRODUCTS)---------*/
+.products{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.products h1{
+    font-size: 100px;
+    font-weight: 800px;
+    text-decoration: underline;
+    text-decoration-color: rgb(22, 14, 14);
+}
+.products p{
+    color: rgb(17, 0, 0);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.jobs{
+    flex-basis: 32%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    position: relative;
+    overflow: hidden;
+}
+.jobs img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+.jobs  h2{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.jobs p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgb(226, 0, 0);  
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+#btn2{
+    margin-top: -8%;
+    margin-left: 44%;
+    color: black;
+    border: 1px solid red;
+    font-size: 18px;
+    position: absolute;
+}
+#btn2:hover{
+    color: white;
+    transition: 0.5s;
+}
+@media(max-width: 700px){
+    .jobs  h2{
+    font-size: 22px;
+    margin-top: 11%;
+}
+.jobs p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.layer{
+    height: 100%;
+}
+#btn2{
+    margin-top: 0;
+    margin-left: 32%;
+   }
+}
+    
+/*-------Home (CONTACT US)---------*/
+    .contact{
+    margin: 0 auto;
+    margin-top: -1%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/cake11.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+} 
+.contact h1{
+    color: rgb(12, 10, 10);
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 28px;
+}
+@media(max-width: 200px){
+    .contact{
+    margin: 150px auto;
+    margin-bottom: 0;
+         }
+.contact h1{
+    font-size: 20px;
+ }
+}
+    
+/*-------Home (FOOTER)---------*/

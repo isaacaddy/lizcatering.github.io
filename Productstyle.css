@@ -1,0 +1,159 @@
+/*-----HOME------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(images/cake6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: peachpuff;
+    height: 100%;
+}
+.header{
+    background-color: red;
+    height: 15vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(51, 55, 56);
+}
+
+nav ul li a{
+    color: rgb(21, 23, 167);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(240, 240, 250);
+    transition: 3s;
+}
+
+.small-container{
+    .col-4{
+    max-width: 1200px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+.small-container h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*------BIRTHDAY CAKES-----*/
+.small-container 2{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*-----WEDDING CAKES----*/
+.small-container 3{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*------PIES-----*/
+.small-container 4{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*------PIZZA------*/
+.small-container 5{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*-----TORTILLA------*/
+.small-container 6{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*-------ROLLS-------*/
+.small-container 6{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-container 2 h1{
+    font-size: 16px;
+}
+
+/*-----OTHER PASTRIES------*/
+.small-container 7{
+    max-width: 1500px;
+    max-height: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

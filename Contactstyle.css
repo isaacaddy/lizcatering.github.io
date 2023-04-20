@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/tortillas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*------HEADER------*/
+.header{
+    background-color: red;
+    height: 15vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(51, 55, 56);
+}
+
+nav ul li a{
+    color: rgb(21, 23, 167);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(240, 240, 250);
+    transition: 3s;
+}
+
+/*-------Home (Contact Us)---------*/    
+.designs img{
+    width: 50%;
+    height: 40%;
+}
+#btn1{
+    color: black;
+    border: 1px solid red;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#btn1:hover{
+    color: white;
+    transition: 0.5s;
+}
+.contactus{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.contactus h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: underline;
+    
+}
+.contactus h2{
+    font-size: 24px;
+    font-weight: 700;
+  
+}
+.contactus p{
+    color: rgb(12, 6, 6);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.designs{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+} 
+.designs h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+.designs:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.274);
+}
+@media(max-width: 200px){
+    .designs img{
+    width: 200px;
+    height: 200px;
+}
+.contactus h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.contactus h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.contactus p{
+    font-size: 17px;
+    font-weight: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+/*-------Home (About Us)---------*/
+    
+.designs img{
+    width: 50%;
+    height: 40%;
+}
+#btn1{
+    color: black;
+    border: 1px solid red;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#btn1:hover{
+    color: white;
+    transition: 0.5s;
+}
+.contactus{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.contactus h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: underline;
+    
+}
+.conus h2{
+    font-size: 24px;
+    font-weight: 700;
+  
+}
+.aboutus p{
+    color: rgb(12, 6, 6);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.designs{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+} 
+.designs h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+.designs:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.274);
+}
+@media(max-width: 200px){
+    .designs img{
+    width: 200px;
+    height: 200px;
+}
+.aboutus h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.aboutus h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.aboutus p{
+    font-size: 17px;
+    font-weight: 500px;
+}
